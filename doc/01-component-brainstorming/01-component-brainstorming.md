@@ -1,8 +1,8 @@
 # Portfolio Part 1: Component Brainstorming
 
-- **Name**: <!-- TODO: fill with first and last name (e.g., Brutus Buckeye) then delete this comment -->
-- **Dot Number**: <!-- TODO: fill with OSU dot number (e.g., buckeye.17) then delete this comment -->
-- **Due Date**: <!-- TODO: fill with due date and time (e.g., 10/17 @ 3:10 PM EST) then delete this comment -->
+- **Jada Pressman**: <!-- TODO: fill with first and last name (e.g., Brutus Buckeye) then delete this comment -->
+- **pressman.29**: <!-- TODO: fill with OSU dot number (e.g., buckeye.17) then delete this comment -->
+- **2/4**: <!-- TODO: fill with due date and time (e.g., 10/17 @ 3:10 PM EST) then delete this comment -->
 
 ## Assignment Overview
 
@@ -29,7 +29,7 @@ implement.
 
 ## Assignment Checklist
 
-<!-- TODO: browse the checklist then delete this comment -->
+
 
 To be sure you have completed everything on this assignment, we have littered
 this document with TODO comments. You can browse all of them in VSCode by
@@ -52,7 +52,7 @@ to the tree diagram (you may remove this one as well):
 
 ## Assignment Learning Objectives
 
-<!-- TODO: read the assignment learning objectives then delete this comment -->
+
 
 Without learning objectives, there really is no clear reason why a particular
 assessment or activity exists. Therefore, to be completely transparent, here is
@@ -106,15 +106,13 @@ Below is further rationale/explanation for the rubric items above:
 > brainstorming. Plus it helps us get to know you better! Feel free to share
 > images in this section.
 
-<!-- TODO: briefly talk about your interests then delete this comment.
-Also, protip: you can preview what your response looks like by hitting
-the magnifying glass icon in the upper-right corner or pressing CTRL+K and
-then V. This kind of button combination is called a chord, for whatever
-reason -->
+Some of intrests inlcude music so one of my ideas was going to be the playlist looking one.
+I also am a math major so also picking one that is in that realm will alos be helpful and interesting. 
+
 
 ## Assignment
 
-<!-- TODO: read the assignment section then delete this comment -->
+
 
 As previously stated, you are tasked with brainstorming 3 possible components.
 To aid you in this process, we have provided [some example components][example-components]
@@ -122,7 +120,7 @@ that may help you in your brainstorming. All of these components were made at
 some point by one of your peers, so you should feel confident that you can
 accomplish any of them.
 
-<!-- TODO: browse the list of possible projects then delete this comment -->
+
 
 There is no requirement that you use any of the components listed above.
 If you want to model something else, go for it! Very common early object
@@ -132,7 +130,7 @@ you're just brainstorming right now. You do not have to commit to anything.
 
 ### Example Component
 
-<!-- TODO: review this example component then delete this comment -->
+
 
 To help you brainstorm a few components, we've provided an example below of a
 component you already know well: NaturalNumber. We highly recommend that you
@@ -200,68 +198,84 @@ will likely refine your design to make your implementation easier to use.
 
 > Please use this section to share your designs.
 
-- Component Design #1: <!-- TODO: give component a name then delete this comment -->
+- Component Design #1: Music Playlist
   - **Description**:
-    - <!-- TODO: describe your component then delete this comment -->
+    - it can take songs from a playlist and add them into the queue so that they can be played
   - **Kernel Methods**:
-    - <!-- TODO: list kernel methods then delete this comment -->
+    - void add(String song) : adds song onto this which is a queue
+    - String skip() : skipd song from the front and goes to the next one
+    - int length() : length of queue
   - **Secondary Methods**:
-    - <!-- TODO: list secondary methods then delete this comment -->
+    - void add(Queue playlist) : adds playlist onto queue in order
+    - Set shuffle(Queue playlist) : shuffles playlist into a set
+    - Boolean lookUp(String song) : checks to see if song is already in queue
   - **Additional Considerations** (*note*: "I don't know" is an acceptable
     answer for each of the following questions):
     - Would this component be mutable? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - I don't know
     - Would this component rely on any internal classes (e.g., `Map.Pair`)?
       Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - i don't know
     - Would this component need any enums or constants (e.g.,
       `Program.Instruction`)? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - I don't know
     - Can you implement your secondary methods using your kernel methods?
       Answer, explain, and give at least one example:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - you can use add(String song) to implement add(Queue playlist) by taking them out of the queue
+        and adding tehm one by one
 
-- Component Design #2: <!-- TODO: give component a name then delete this comment -->
+- Component Design #2: Derivative adn Integral Calculator
   - **Description**:
-    - <!-- TODO: describe your component then delete this comment -->
+    - will comput somewhat simple derivative and integrals based off of the rules
   - **Kernel Methods**:
-    - <!-- TODO: list kernel methods then delete this comment -->
+    - String findRule(String equation) : looks at the style of equation and gives the rule best to find the derivative
+    - String derive(String equation) : uses the definition of the derivative to find it
+    - String integral(String equation) : integrates according to the opposite power rule
   - **Secondary Methods**:
-    - <!-- TODO: list secondary methods then delete this comment -->
+    - String powerRule(String equation) : uses power rule
+    - String productRule(String equation) : uses the product rule
+    - String quotientRule(String equation) : uses the quotient rule
+    - String trigRules(String equation) : uses the known trig rules
+    - String uSubIntegration(String equation) : uses u substitution
   - **Additional Considerations** (*note*: "I don't know" is an acceptable
     answer for each of the following questions):
     - Would this component be mutable? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - I don't know
     - Would this component rely on any internal classes (e.g., `Map.Pair`)?
       Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - No
     - Would this component need any enums or constants (e.g.,
       `Program.Instruction`)? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - i don't know
     - Can you implement your secondary methods using your kernel methods?
       Answer, explain, and give at least one example:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - Yes, you can use the definiton of the derivative one derive() to do powerRule() which works
+        because all derivative can be done using the definition it is just more convient to use the rule
 
-- Component Design #3: <!-- TODO: give component a name then delete this comment -->
+- Component Design #3: Mood Tracker/App
   - **Description**:
-    - <!-- TODO: describe your component then delete this comment -->
+    - tracks your mood throught the day and then can give stats based on it
   - **Kernel Methods**:
-    - <!-- TODO: list kernel methods then delete this comment -->
+    - void addFeel(int time) : adds feeling into the tracker at the time of day
+    - String typeFeel(String feeling) : checks a database adn gives back the type of feeling, pleasant, unpleasnt
+    - int feelCount(String feeling) : counts how many times you have had a specific feeling
   - **Secondary Methods**:
-    - <!-- TODO: list secondary methods then delete this comment -->
+    - int avgFeel() : averages the pleasant and unpleasnt feelings
+    - void feelChart() : creates chart based on feeling and how many times recorded
   - **Additional Considerations** (*note*: "I don't know" is an acceptable
     answer for each of the following questions):
     - Would this component be mutable? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - I don't know
     - Would this component rely on any internal classes (e.g., `Map.Pair`)?
       Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - I don't think so
     - Would this component need any enums or constants (e.g.,
       `Program.Instruction`)? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - I don't know
     - Can you implement your secondary methods using your kernel methods?
       Answer, explain, and give at least one example:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - typeFeel() and feelCount() can help implement avgFeel() by getting the count of each type
+        and then averaging them and giving an output based on a scale
 
 ## Post-Assignment
 
