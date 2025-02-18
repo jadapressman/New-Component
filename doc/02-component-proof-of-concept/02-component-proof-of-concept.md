@@ -111,7 +111,7 @@ Below is further rationale/explanation for the rubric items above:
 > to create a new design. In you do end up picking one at random, you should
 > disclose that here as well.
 
-I am selecting the playlist component over the others
+I am selecting the playlist component over the others because it seems the easiest for me to impelement and it is the one I am the most passionate about which will make this project more fun.
 
 > Once you've argued your choice of design, make a branch in your new repo called
 > something like `proof-of-concept`. There are many ways to do this, but my
