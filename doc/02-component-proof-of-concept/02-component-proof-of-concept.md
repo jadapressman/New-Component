@@ -111,7 +111,7 @@ Below is further rationale/explanation for the rubric items above:
 > to create a new design. In you do end up picking one at random, you should
 > disclose that here as well.
 
-I am selecting the playlist component over the others
+I am selecting the playlist component over the others because it seems that it makes the most sense to implement in the OSU dicipline. I am also more passionate about this one as it was teh first one I thought of. This one also is easier to implement because the other designs while intersting are more difficult because of the porblems they introduce. Like what representation am I making the calculator because nothing makes complete sense and it would be hard to do so. Also with the mood tracker it lacks layerability and I think that is what would make it difficult. That is why I picked the music player.
 
 > Once you've argued your choice of design, make a branch in your new repo called
 > something like `proof-of-concept`. There are many ways to do this, but my
@@ -122,7 +122,6 @@ I am selecting the playlist component over the others
 > we'll want a branch that you can later make a pull request from with all
 > your changes.
 
-<!-- TODO: make a new branch from main then delete this comment -->
 
 ## Assignment Tasks
 

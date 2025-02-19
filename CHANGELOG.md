@@ -13,3 +13,10 @@ the following form: YYYY.0M.0D.
 - Designed a Music Playlist component
 - Designed a Derivative and Integral Calculator component
 - Designed a Mood Tracker component
+
+
+## 2025.02.19
+
+### Added
+
+- Designed a proof of concept for music playlist component

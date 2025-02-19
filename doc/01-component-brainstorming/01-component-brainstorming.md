@@ -1,12 +1,12 @@
 # Portfolio Part 1: Component Brainstorming
 
-- **Jada Pressman**: <!-- TODO: fill with first and last name (e.g., Brutus Buckeye) then delete this comment -->
-- **pressman.29**: <!-- TODO: fill with OSU dot number (e.g., buckeye.17) then delete this comment -->
-- **2/4**: <!-- TODO: fill with due date and time (e.g., 10/17 @ 3:10 PM EST) then delete this comment -->
+- **Jada Pressman**:
+- **pressman.29**:
+- **2/4**:
 
 ## Assignment Overview
 
-<!-- TODO: read the assignment overview then delete this comment -->
+
 
 The overall goal of the portfolio project is to have you design and implement
 your own OSU component. There are no limits to what you choose to design and
@@ -67,7 +67,7 @@ project. Specifically, students should be able to:
 
 ## Assignment Rubric: 10 Points
 
-<!-- TODO: read the assignment rubric then delete this comment -->
+
 
 Again, to be completely transparent, most of the portfolio project, except the
 final submission, is designed as a formative assessment. Formative assessments
@@ -107,7 +107,7 @@ Below is further rationale/explanation for the rubric items above:
 > images in this section.
 
 Some of intrests inlcude music so one of my ideas was going to be the playlist looking one.
-I also am a math major so also picking one that is in that realm will alos be helpful and interesting. 
+I also am a math major so also picking one that is in that realm will alos be helpful and interesting.
 
 
 ## Assignment
