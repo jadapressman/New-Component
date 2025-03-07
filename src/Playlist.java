@@ -8,6 +8,7 @@ package components.Playlist;
  */
 public interface Playlist<String> extends PlaylistKernel<String> {
 
+    /**
      * Reports the entry at position {@code pos} of {@code this}.
      *
      * @param pos
