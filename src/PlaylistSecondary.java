@@ -4,45 +4,41 @@ package components.Playlist;
  * Layered implementations of secondary methods for {@code Sequence}.
  *
  * @param <String>
- *             type of {@code Sequence} entries
+ *            type of {@code Sequence} entries
  */
 public abstract class PlaylistSecondary<String> implements Playlist<String> {
 
-private Sequence<String> playlist;
+    @Override
+    public String entry(int pos) {
+        String song = Playlist.remove(pos);
+        Playlist.add(pos, song);
+        return song;
+    }
 
-@Override
-     public String entry(int pos) {
-          String song = this.playlist.remove(pos);
-          this.playlist.add(pos, song);
-          return song;
-     }
+    @Override
+    public void swapSong(int pos1, int pos2) {
+        String song2 = Playlist.remove(pos2);
+        String song1 = Playlist.remove(pos1);
 
-@Override
-      public void swapSong(int pos1, int pos2) {
-        String song2 = this.playlist.remove(pos2);
-        String song1 = this.playlist.remove(pos1);
-
-        this.playlist.add(song2, pos1);
-        this.playlist.add(song1, pos2);
-     }
-
+        Playlist.add(song2, pos1);
+        Playlist.add(song1, pos2);
+    }
 
 @Override
      public void append(Playlist<String> s) {
-        int i = this.playlist.length();
+        int i = Playlist.length();
         for(String x : s){
-            this.playlist.add(s,i)
+            Playlist.add(s,i)
             i++;
         }
         s.clear();
      }
 
-
 @Override
      public void insert(int pos, Playlist<String> s) {
         int i = pos;
         for(String x : s){
-            this.playlist.add(s,i)
+            Playlist.add(s,i)
             i++;
         }
         s.clear();
@@ -52,7 +48,7 @@ private Sequence<String> playlist;
      public void extract(int pos1, int pos2, Playlist<String> s){
         int j = 0;
         for(int i = pos1; i < pos2; i++){
-            String song = this.playlist.remove(i);
+            String song = Playlist.remove(i);
             s.add(song, j)
             j++;
         }
@@ -61,7 +57,7 @@ private Sequence<String> playlist;
 @Override
     public static boolean lookUp(String){
         boolean isIn = false;
-        for (String x : this.playlist) {
+        for (String x : Playlist) {
             if (x.equals(song)) {
                 isIn = true;
             }
@@ -69,24 +65,24 @@ private Sequence<String> playlist;
         return isIn;
          }
 
-@Override
+    @Override
     public String toString() {
         StringBuffer buf = new StringBuffer();
-        for(int i = 0; i < this.playlist.length(); i++){
-            String song = this.playlist.remove(0);
+        for (int i = 0; i < Playlist.length(); i++) {
+            String song = Playlist.remove(0);
             buf.append(song);
             buf.append(", ");
         }
         return buf.toString();
     }
 
-@Override
-    public boolean equals(Playlist<String> play2) {
+    @Override
+    public boolean equals(Object play2) {
         boolean isEqual = false;
-        if(this.playlist == play2){
+        if (Playlist == play2) {
             isEqual = true;
         }
-        if(this.playlist == null || play2 == null){
+        if (Playlist == null || play2 == null) {
             isEqual = false;
         }
         return isEqual;
