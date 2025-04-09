@@ -10,25 +10,25 @@ public abstract class PlaylistSecondary<String> implements Playlist<String> {
 
     @Override
     public String entry(int pos) {
-        String song = this.Playlist.remove(pos);
-        Playlist.add(pos, song);
+        String song = this.remove(pos);
+        this.add(pos, song);
         return song;
     }
 
     @Override
     public void swapSong(int pos1, int pos2) {
-        String song2 = this.Playlist.remove(pos2);
-        String song1 = this.Playlist.remove(pos1);
+        String song2 = this.remove(pos2);
+        String song1 = this.remove(pos1);
 
-        this.Playlist.add(song2, pos1);
-        this.Playlist.add(song1, pos2);
+        this.add(song2, pos1);
+        this.add(song1, pos2);
     }
 
 @Override
      public void append(Playlist<String> s) {
-        int i = this.Playlist.length();
+        int i = this.length();
         for(String x : s){
-            this.Playlist.add(s,i)
+            this.add(s,i)
             i++;
         }
         s.clear();
@@ -38,7 +38,7 @@ public abstract class PlaylistSecondary<String> implements Playlist<String> {
      public void insert(int pos, Playlist<String> s) {
         int i = pos;
         for(String x : s){
-            this.Playlist.add(s,i)
+            this.add(s,i)
             i++;
         }
         s.clear();
@@ -48,8 +48,8 @@ public abstract class PlaylistSecondary<String> implements Playlist<String> {
      public void extract(int pos1, int pos2, Playlist<String> s){
         int j = 0;
         for(int i = pos1; i < pos2; i++){
-            String song = this.Playlist.remove(i);
-            s.Playlist.add(song, j)
+            String song = this.remove(i);
+            s.add(song, j)
             j++;
         }
      }
@@ -57,7 +57,7 @@ public abstract class PlaylistSecondary<String> implements Playlist<String> {
 @Override
     public static boolean lookUp(String){
         boolean isIn = false;
-        for (String x : this.Playlist) {
+        for (String x : this) {
             if (x.equals(song)) {
                 isIn = true;
             }
@@ -68,8 +68,8 @@ public abstract class PlaylistSecondary<String> implements Playlist<String> {
     @Override
     public String toString() {
         StringBuffer buf = new StringBuffer();
-        for (int i = 0; i < this.Playlist.length(); i++) {
-            String song = this.Playlist.remove(0);
+        for (int i = 0; i < this.length(); i++) {
+            String song = this.remove(0);
             buf.append(song);
             buf.append(", ");
         }
