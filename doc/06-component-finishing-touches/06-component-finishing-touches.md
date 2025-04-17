@@ -1,8 +1,8 @@
 # Portfolio Part 6: Finishing Touches
 
-- **Name**: <!-- TODO: fill with first and last name (e.g., Brutus Buckeye) and delete this comment -->
-- **Dot Number**: <!-- TODO: fill with OSU dot number (e.g., buckeye.17) and delete this comment -->
-- **Due Date**: <!-- TODO: fill out with due date and time (e.g., 10/17 @ 3:10 PM EST) and delete this comment -->
+- **Name**: Jada Pressman
+- **Dot Number**: pressman.29
+- **Due Date**: 4/18
 
 ## Assignment Overview
 
@@ -50,7 +50,7 @@ course, but just knowing about them could set you up for long term success.
 
 ## Assignment Checklist
 
-<!-- TODO: browse the checklist then delete this comment -->
+
 
 To be sure you have completed everything on this assignment, we have littered
 this document with TODO comments. You can browse all of them in VSCode by
@@ -141,7 +141,7 @@ to see them. If you don't like this workflow, you may try following the
 rebase strategies described [here](https://stackoverflow.com/questions/35790561/working-while-waiting-for-pending-pr)
 and [here](https://stackoverflow.com/questions/18021888/continue-working-on-a-git-branch-after-making-a-pull-request).
 
-<!-- TODO: make a new branch from main then delete this comment -->
+
 
 ## Assignment Tasks
 
@@ -307,18 +307,29 @@ Take some time to fill them out honestly.
 > complete the portfolio project, how much better (or worse) do you think you
 > understand software development and why?
 
-<!-- TODO: discuss -->
+I definetly understand software development more after doing this project because
+it let me figure out what was good and bad instead of just being given a project
+and being told to do it. I had to create everyhting from scratch which I wasn't
+used to doing before this. While it is different than learning in class I feel as
+though they both have their rela world applications. Both creating something from
+scratch or being handed a project and being told to finish it are realistic.
 
 > Also, did the portfolio project surface any gaps in your own knowledge of
 > software development. If so, what are those gaps and how did you address them?
 
-<!-- TODO: discuss -->
+The gaps that it helped fill in is what goes on behind the scenes of creating something from scratch. In the OSU projects, they tell how how you are implementing the kernels
+and give you the correspondance and other things like that. But this project made me
+think about those things which helped me become more knowledgeable on different
+representations.
 
 > Finally, as a part of completing the portfolio project, to what extent has
 > your perspective of software development changed, if at all? In other words,
 > is software development something you still enjoy? If not, why not?
 
-<!-- TODO: discuss -->
+I feel like my perspective of software development hasn't changed much. I have
+always felt kind of meh about it, as I enjoy the classes based in math more.
+That being said this project made me realize how much more that I am capable
+of as I have never really tried anything like it.
 
 > One of the challenges of completing the portfolio project is picking up a lot
 > of skills on your own. Some of these skills are, of course, software skills.
@@ -326,29 +337,45 @@ Take some time to fill them out honestly.
 > this process. Therefore, the first question is what skills did you pick up
 > through this process?
 
-<!-- TODO: discuss -->
+The skills that I picked up through this process is learning how to independently research
+and implement my own designs. As well as enhancing my communication and documentation
+practices to explain my design decisions and code clearly.
+
+
 
 > The follow-up question is: could you rephrase these skills you picked up
 > as bullet points that you could put on a resume? Try it below.
 
-<!-- TODO: discuss -->
+I could rephrase them into these bulletpoints:
+
+Implemented my own designs I researched to complete a portfolio project from start to finish
+
+Documented design choices and technical details clearly for maintainability and collaboration
+
 
 > Next, how has working on this project affected your career trajectory?
 > In other words, do you now hate the topic you picked? Or, are you even more
 > interested in it? Both outcomes are valuable to your personal development.
 
-<!-- TODO: discuss -->
+ Working on this project has not really affected my career trajectory as I am
+ more interested in the math or data analytic careers but I do still enjoy the topic
+ I picked as I love music and playlists. That is why I picked it in the first place
+ and I am happy that I was able to make it come to life in code.
 
 > Finally, consider the skills you've picked up and your current career
 > trajectory. What are some things you could do to continue on your
 > career trajectory? Also, who are some mentors you could contact to help
 > you stay on your path?
 
-<!-- TODO: discuss -->
+Some things that I could do to continue on my career trajecotry is continue to challenge
+myslef and try new things. I started at OSU undecided and by trying things I
+figured out my major, and while this project isn't exactly what I want to do for my
+career it was an opportunity to explore that. Some mentors I could contact to help me stay
+on my path is professors who do research in the data analytics department because that
+is something that I am somewhat interested in to see if I like it.
 
 ### Changelog
 
-<!-- TODO: update CHANGELOG then delete this comment -->
 
 At the end of every assignment, you should update the
 [CHANGELOG.md](../../CHANGELOG.md) file found in the root of the project folder.
@@ -384,7 +411,6 @@ request merge (or at least tag your commits). This is not required.
 
 ### Submission
 
-<!-- TODO: read the submission instructions then delete this comment -->
 
 Assuming that your project is in a GitHub repo somewhere and your changes are on
 a proof-of-concept branch, then what we'll want you to do is create a pull
@@ -436,6 +462,5 @@ If you'd like to give feedback for this assignment (or any assignment, really),
 make use of [this survey][survey]. Your feedback helps make assignments
 better for future students.
 
-<!-- TODO: follow the link to share your feedback then delete this comment -->
 
 [survey]: https://forms.gle/dumXHo6A4Enucdkq9
